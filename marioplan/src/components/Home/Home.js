@@ -6,8 +6,10 @@ import { firestoreConnect } from 'react-redux-firebase'
 import { compose } from 'redux'
 import { Redirect } from 'react-router-dom'
 import './assets/vendors/themify-icons/css/themify-icons.css'
+// import'./css/bootstrap.min.css'
 import './assets/css/steller.css'
 import lg from './assets/imgs/22.png'
+import kidney from '../User/assets/images/kidney.jpg'
 
 
 class Home extends Component {
@@ -32,22 +34,22 @@ class Home extends Component {
                 {/* <div class="buttons pt-3">
                     <button class="btn btn-primary rounded">HIRE ME</button>
                     <button class="btn btn-dark rounded">DOWNLOAD CV</button>
-                </div>       */}
+                </div>       
 
-                {/* <div class="socials mt-4">
+                 <div class="socials mt-4">
                     <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
                     <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
                     <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
                     <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
-                </div> */}
+                </div>  */}
             </div>              
             <div class="img-holder">
-                <img src={lg} alt="Logo"/>
-            </div>      
+                <img src={lg} alt="Logo"  />
+            </div>     
         </div>  
 
       
-        {/* <div class="widget">
+       {/* <div class="widget">
             <div class="widget-item">
                 <h2>124</h2>
                 <p>Happy Clients</p>
@@ -60,7 +62,7 @@ class Home extends Component {
                 <h2>789</h2>
                 <p>Awards Won</p>
             </div> 
-        </div> */}
+        </div>  */}
     </header>
     )
   }

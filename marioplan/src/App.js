@@ -7,7 +7,9 @@ import SignIn from './components/auth/SignIn'
 import SignUp from './components/auth/SignUp'
 import CreateProject from './components/projects/CreateProject'
 import Home from './components/Home/Home';
-
+import Bighouse from './components/User/Bighouse';
+import Works from './components/dashboard/Works';
+import About from './components/dashboard/About';
 import ProjectSummary from './components/projects/ProjectSummary';
 import ProjectList from './components/projects/ProjectList';
 
@@ -24,7 +26,11 @@ class App extends Component {
             <Route path='/signin' component={SignIn} />
             <Route path='/signup' component={SignUp} />
             <Route path='/create' component={CreateProject} />
-            <Route path='/Patient' component={Dashboard}/>
+            <Route path='/ProjectSummary' component={ProjectSummary}/>
+            <Route path='/ProjectList' component={ProjectList}/> 
+            <Route path='/Bighouse' component={Bighouse}/>
+            <Route path='/About' component={About}/> 
+            <Route path='/Works' component={Works}/> 
           </Switch>
         </div>
       </BrowserRouter>

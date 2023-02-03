@@ -44,7 +44,7 @@ class CreateProject extends Component {
           </div>
 
           <div className="input-field">
-            <input type="Number" step="any" id='specific gravity' onChange={this.handleChange} />
+            <input type="Number" step="any" id='specificgravity' onChange={this.handleChange} />
             <label htmlFor="content">specific gravity of urine</label>
           </div>
 
@@ -64,12 +64,12 @@ class CreateProject extends Component {
           </div>
 
           <div className="input-field">
-            <input type="Number" step="any" id='calcium in urine' onChange={this.handleChange} />
+            <input type="Number" step="any" id='calcium' onChange={this.handleChange} />
             <label htmlFor="content">concentration of calcium in urine</label>
           </div>
 
           <div className="input-field">
-            <input type="Number" step="any" id='urea in urine' onChange={this.handleChange} />
+            <input type="Number" step="any" id='urea' onChange={this.handleChange} />
             <label htmlFor="content">concentration of urea in urine</label>
           </div>
 
